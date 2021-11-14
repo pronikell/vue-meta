@@ -1,0 +1,1 @@
+{"version":3,"file":"ssr.d.ts","sourceRoot":"","sources":["../../src/ssr.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,GAAG,EAAE,MAAM,KAAK,CAAA;AAC9B,OAAO,KAAK,EAAE,UAAU,EAAE,MAAM,sBAAsB,CAAA;AAEtD,wBAAsB,kBAAkB,CAAE,GAAG,EAAE,GAAG,EAAE,GAAG,GAAE,UAAe,GAAG,OAAO,CAAC,UAAU,CAAC,CAoB7F"}

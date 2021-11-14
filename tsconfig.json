@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": ".",
+    "outDir": "dist",
+    "sourceMap": false,
+    "noEmit": false,
+
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowJs": false,
+
+    "noUnusedLocals": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "strict": true,
+    "isolatedModules": false,
+
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "removeComments": false,
+    "jsx": "preserve",
+    "lib": ["esnext", "dom"],
+    "types": ["jest", "node"],
+    "paths": {
+      "vue-meta": ["./src/"],
+      "vue-meta/*": ["./src/*"],
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "test/**/*.ts",
+    "examples/**/*.ts",
+    "examples/**/*.vue"
+  ],
+}
